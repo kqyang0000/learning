@@ -8,4 +8,8 @@ public class FirstOne {
     public String get(){
         return null;
     }
+
+    public void set(){
+
+    }
 }
