@@ -4,4 +4,6 @@ public class FirstOne {
     public static void main(String[] args) {
         System.out.println("aaaa");
     }
+
+    public static final String STR = "123456";
 }
