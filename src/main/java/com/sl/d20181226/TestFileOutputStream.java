@@ -7,7 +7,7 @@ public class TestFileOutputStream {
 	  FileInputStream in = null;
 	  FileOutputStream out = null;
 	  try {
-	    in = new FileInputStream("d:/share/java/HelloWorld.java");
+	    in = new FileInputStream("d:\\share\\java\\io\\TestFileInputStream.java");
 	    out = new FileOutputStream("d:/share/java/io/HW.java");
 	    while((b=in.read())!=-1){
 	      out.write(b);
@@ -15,10 +15,10 @@ public class TestFileOutputStream {
 	    in.close(); 
 	    out.close();
 	  } catch (FileNotFoundException e2) {
-	    System.out.println("�Ҳ���ָ���ļ�"); System.exit(-1);
+	    System.out.println("找不到指定文件"); System.exit(-1);
 	  } catch (IOException e1) {
-	    System.out.println("�ļ����ƴ���"); System.exit(-1);
+	    System.out.println("文件复制错误"); System.exit(-1);
 	  }
-	  System.out.println("�ļ��Ѹ���");
+	  System.out.println("文件已复制");
   }
 }

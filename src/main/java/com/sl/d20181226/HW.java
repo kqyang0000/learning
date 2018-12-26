@@ -14,7 +14,7 @@ asdfj;asdfj;asdf
 
 
 
-public class HelloWorld {
+public class HW {
 	
 	static int j = 9;
 	
