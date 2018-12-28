@@ -6,7 +6,7 @@ public class TestPrintStream1 {
     PrintStream ps = null;
     try {
       FileOutputStream fos = 
-              new FileOutputStream("d:\\bak\\log.dat");
+              new FileOutputStream("d:\\share\\java\\log.dat");
       ps = new PrintStream(fos);
     } catch (IOException e) {
       e.printStackTrace();
