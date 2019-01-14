@@ -18,6 +18,7 @@ public class TestInterrupt {
             Thread.sleep(10000);
         } catch (InterruptedException e) {
         }
+        // 不是线程结束的最好方法
         thread.interrupt();
     }
 }
@@ -32,6 +33,7 @@ class MyThread extends Thread {
             try {
                 sleep(1000);
             } catch (InterruptedException e) {
+                // 处理异常时最好不要添加业务代码
                 return;
             }
         }
