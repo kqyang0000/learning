@@ -12,7 +12,7 @@ package com.sl.thread;
  */
 public class TestJoin {
     public static void main(String[] args) {
-        MyThread2 t1 = new MyThread2("abcde");
+        MyThread2 t1 = new MyThread2("thread1");
         t1.start();
         try {
             t1.join();
