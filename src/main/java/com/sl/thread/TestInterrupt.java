@@ -2,6 +2,14 @@ package com.sl.thread;
 
 import java.util.*;
 
+/**
+ * <p>
+ * sleep 线程睡眠
+ *
+ * @author kqyang
+ * @version 1.0
+ * @date 2019/1/8 13:09
+ */
 public class TestInterrupt {
     public static void main(String[] args) {
         MyThread thread = new MyThread();
