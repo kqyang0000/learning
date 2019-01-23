@@ -25,6 +25,10 @@ class WoTou {
     }
 }
 
+/**
+ * wait() 方法属于Object，且当前wait时，当前锁不属于当前访问对象
+ *
+ */
 class SyncStack1 {
     int index = 0;
     WoTou[] arrWT = new WoTou[6];
